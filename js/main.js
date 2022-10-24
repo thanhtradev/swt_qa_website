@@ -24,7 +24,7 @@ $(function () {
 
 					$.ajax({
 						type: "POST",
-						url: "http://localhost:5000/api/qa",
+						url: "http://api.bakarya.com/api/qa",
 						data: $(form).serialize(),
 
 						beforeSend: function () {
